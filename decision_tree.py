@@ -39,7 +39,7 @@ for i in range(len(db[0])):
 for instance in db:
     for i in range(len(instance)):
         conversion[i].add(instance[i])
-# convert the set into a dictionary so we can get constant time access to feature values
+# convert the set into a dictionary so we can get constant time access to feature values and their number
 temp = {}
 for key in conversion:
     # convert to list so we prepare it for conversion
