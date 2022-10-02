@@ -39,7 +39,6 @@ for i, instance in enumerate(db):
     # turn the csv data into usable float data
     for data in db:
         temp = []
-        #skip the last value in the instance which is ?
         for num in data[:2]:
             temp.append(float(num))
         X.append(temp)
@@ -65,4 +64,4 @@ for i, instance in enumerate(db):
     if class_predicted == test_Sample[1]:
         correct_prediction += 1
 # print the error rate
-print("error rate:", (len(db) - correct_prediction) / len(db))
+print("The error rate for 1NN:", (len(db) - correct_prediction) / len(db))
