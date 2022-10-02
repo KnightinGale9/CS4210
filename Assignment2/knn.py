@@ -39,6 +39,7 @@ for i, instance in enumerate(db):
     # turn the csv data into usable float data
     for data in db:
         temp = []
+        #skip the last value in the instance which is ?
         for num in data[:2]:
             temp.append(float(num))
         X.append(temp)
