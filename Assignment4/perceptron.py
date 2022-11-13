@@ -1,7 +1,8 @@
 # -------------------------------------------------------------------------
 # AUTHOR: Zhong Ooi
 # FILENAME: perceptron.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: A program to simulate grid search and find the best combination of hyperperameters 
+# to retrieve the higgest accuracy with perceptron and multilayer perceptron.
 # FOR: CS 4210- Assignment #4
 # TIME SPENT: 10 mins
 # -----------------------------------------------------------*/
