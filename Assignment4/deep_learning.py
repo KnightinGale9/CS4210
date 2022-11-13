@@ -1,7 +1,8 @@
 # -------------------------------------------------------------------------
 # AUTHOR: Zhong Ooi
 # FILENAME: deep_learning.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: A program to perform grid search to find the best hyperperameters for the nueral network. 
+#It then graphs the best model learning curve and the prints the layers of the model 
 # FOR: CS 4210- Assignment #4
 # TIME SPENT: 30 mins
 # -----------------------------------------------------------*/
