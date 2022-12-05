@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
-# FILENAME: title of the source file
-# SPECIFICATION: description of the program
+# AUTHOR: Zhong Ooi
+# FILENAME: association_rule_mining.py
+# SPECIFICATION: Do association rule mining on the given dataset and the rule's support,condifence,prior,and gain in confidence.
 # FOR: CS 4210- Assignment #5
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 2 hrs
 #-----------------------------------------------------------*/
 
 import pandas as pd
